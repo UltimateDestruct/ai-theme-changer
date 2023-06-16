@@ -7,19 +7,21 @@
 <body>
   <div class="container">
     <h2>Theme Selector</h2>
-    <form id="themeForm">
-      <label for="themeSelect">Select Theme:</label>
-      <select id="themeSelect" name="themeSelect">
-        <option value="default">Default</option>
-        <option value="dark">Dark</option>
-        <option value="light">Light</option>
-        <option value="ocean">Ocean</option> <!-- New option for ocean theme -->
-      </select>
-      <br><br>
-      <input type="text" placeholder="Enter text...">
-      <br><br>
-      <button type="button" onclick="changeTheme()">Change Theme</button>
-    </form>
+    <div id="formContainer">
+      <form id="themeForm">
+        <label for="themeSelect">Select Theme:</label>
+        <select id="themeSelect" name="themeSelect">
+          <option value="default">Default</option>
+          <option value="dark">Dark</option>
+          <option value="light">Light</option>
+          <option value="ocean">Ocean</option>
+        </select>
+        <br><br>
+        <input type="text" placeholder="Enter text...">
+        <br><br>
+        <button type="button" onclick="changeTheme()">Change Theme</button>
+      </form>
+    </div>
   </div>
 
   <script src="script.js"></script>
