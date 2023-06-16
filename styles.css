@@ -36,7 +36,37 @@ body {
   }
   
   .ocean {
-    background-color: #0077be;
+    background-image: linear-gradient(to bottom, #0083b8, #0e5b80);
     color: #fff;
+  }
+  
+  .ocean h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .ocean label {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .ocean select {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .ocean input[type="text"] {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .ocean .btn {
+    background-color: #0099cc;
   }
   
