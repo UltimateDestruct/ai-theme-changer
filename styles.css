@@ -106,3 +106,32 @@ body {
     color: #fff;
   }
   
+  .mountain {
+    background-color: #755939;
+    color: #fff;
+  }
+  
+  .mountain h2 {
+    color: #fff;
+  }
+  
+  .mountain label {
+    color: #ccc;
+  }
+  
+  .mountain select,
+  .mountain input[type="text"] {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+  
+  .mountain .btn {
+    background-color: #755939;
+    box-shadow: 0 0 5px rgba(117, 89, 57, 0.5);
+    color: #fff;
+  }
+  
