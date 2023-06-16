@@ -30,9 +30,51 @@ body {
     color: #fff;
   }
   
+  .dark h2 {
+    color: #eee;
+  }
+  
+  .dark label {
+    color: #ddd;
+  }
+  
+  .dark select,
+  .dark input[type="text"] {
+    background-color: #666;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .dark .btn {
+    background-color: #009933;
+  }
+  
   .light {
     background-color: #f4f4f4;
     color: #333;
+  }
+  
+  .light h2 {
+    color: #555;
+  }
+  
+  .light label {
+    color: #777;
+  }
+  
+  .light select,
+  .light input[type="text"] {
+    background-color: #eee;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .light .btn {
+    background-color: #66CCFF;
   }
   
   .ocean {
@@ -41,13 +83,11 @@ body {
   }
   
   .ocean h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    color: #fff;
   }
   
   .ocean label {
-    font-weight: bold;
-    color: #fff;
+    color: #ccc;
   }
   
   .ocean select,
@@ -57,9 +97,12 @@ body {
     border: none;
     border-radius: 4px;
     padding: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
   }
   
   .ocean .btn {
-    background-color: #0099cc;
+    background-color: #0077be;
+    box-shadow: 0 0 5px rgba(0, 123, 204, 0.5);
+    color: #fff;
   }
   
