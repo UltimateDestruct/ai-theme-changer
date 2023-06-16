@@ -2,7 +2,10 @@ function changeTheme() {
     var themeSelect = document.getElementById("themeSelect");
     var selectedTheme = themeSelect.value;
   
-    var formContainer = document.getElementById("formContainer");
-    formContainer.className = selectedTheme;
+    var body = document.body;
+    body.className = selectedTheme;
+  
+    var container = document.querySelector(".container");
+    container.className = "container " + selectedTheme;
   }
   
